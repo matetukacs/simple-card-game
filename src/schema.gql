@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  scoreStatus(gameId: String!): String!
+}
+
+type Mutation {
+  startGame(player1Name: String!, player2Name: String!): String!
+  playTurn(gameId: String!): String!
+}
